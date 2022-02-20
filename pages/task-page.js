@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import Link from "next/link";
 import { getAllTasksData } from "../lib/tasks";
 import Task from "../components/Task";
@@ -46,7 +46,7 @@ export default function TaskPage({ staticfilterdTasks }) {
                 d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
               />
             </svg>
-            <span>Back to main page</span>
+            <span>Back to main page!</span>
           </div>
         </Link>
       </Layout>
