@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import Link from "next/link";
 import { getAllPostsData } from "../lib/posts";
 import Post from "../components/Post";
